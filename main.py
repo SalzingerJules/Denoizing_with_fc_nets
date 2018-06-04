@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import model
 import data
 
-file_name = "C:/Users/Antoine/Desktop/Scolaire/PTS7/FACES/FERET/colorferet/images"
+file_name = "DB/FERET"
 number_images = 5000
 stdd = 0.01
 
