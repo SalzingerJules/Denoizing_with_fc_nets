@@ -3,14 +3,14 @@
 ARTICLE 1 :
 
 AVANTAGES :
-évite de flouter les petits détails en forçant le réseau à garder un faible niveau d'abstraction
-facile à entraîner car peu profond
-extraction de caractéristiques multi-échelles
-court-circuit des étapes de denoising pour la reconstruction d'image => trois parties distinctes dans la réseau avec chacune son rôle particulier
-entraînement intéressant en trois étapes, clean-to-clean, noisy-to-clean et adversarial noisy-to-clean
+- évite de flouter les petits détails en forçant le réseau à garder un faible niveau d'abstraction
+- facile à entraîner car peu profond
+- extraction de caractéristiques multi-échelles
+- court-circuit des étapes de denoising pour la reconstruction d'image => trois parties distinctes dans la réseau avec chacune son rôle particulier
+- entraînement intéressant en trois étapes, clean-to-clean, noisy-to-clean et adversarial noisy-to-clean
 
 INCONVENIENTS :
-très peu profond, donc peut-être sensible à une plus grand diversité de bruits ou d'images
+- très peu profond, donc peut-être sensible à une plus grand diversité de bruits ou d'images
 
 DB :
 TRAINING :
