@@ -41,7 +41,7 @@ AVANTAGES :
 - bonne capacité de généralisation à d'autres types de bruit, tout en gardant des résultats compétitifs dans le cas de bruit de niveau connu
 
 INCONVENIENTS :
----
+- pas donnés
 
 Tests : PSNR pour la plupart, SSIM un petit peu
 
