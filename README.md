@@ -13,16 +13,22 @@ INCONVENIENTS :
 - très peu profond, donc peut-être sensible à une plus grand diversité de bruits ou d'images
 
 DB :
+
 TRAINING :
-MIT Indoor dataset
-Places dataset
+
+MIT Indoor dataset et Places dataset
+
  => 64*64 crop de 5000 images de chaque base, pixels normalisés entre 0 et 1
+ 
 Bruitage : "random level of Gaussian noise"
 
 TEST :
+
 100 images de BSDS300 et 200 images de PascalVOC
 
 VALIDATION :
+
 7 images de références (utilisées dans "J. Portilla, V. Strela, M. J. Wainwright, and E. P. Simoncelli. Image denoising using scale mixtures of gaussians in the wavelet domain.")
+
 
 Méthode de test : PSNR seul
